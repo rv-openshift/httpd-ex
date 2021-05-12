@@ -5,5 +5,3 @@ FROM quay.io/venerayan/fixpip2:v2
 #    yum install -y python36-pip && yum install -y httpd && pip3 install --upgrade pip    
 
 COPY index.html /var/www/html/
-
-RUN  systemctl start httpd
